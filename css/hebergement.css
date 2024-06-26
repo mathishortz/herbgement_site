@@ -1,0 +1,60 @@
+h1, h2, h3 {
+    margin: 0.5em 0;
+}
+
+section {
+    padding: 1em;
+}
+
+#introduction {
+    background-color: #f4f4f4;
+    padding: 1em;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+#cottages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.cottage {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    flex: 1;
+    min-width: 250px;
+    border-radius: 7px;
+}
+
+.cottage h3 {
+    margin-top: 0;
+}
+
+.cottage ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cottage li {
+    margin: 0.5em 0;
+}
+
+.astuce {
+    background-color: #ffeb3b;
+    padding: 1em;
+    border-left: 4px solid #fbc02d;
+    margin-top: 1em;
+}
+
+@media (max-width: 600px) {
+    #cottages {
+        flex-direction: column;
+    }
+}
+
+img{
+    height: 200px;
+    
+}

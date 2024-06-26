@@ -1,0 +1,56 @@
+
+h1, h2, h3 {
+    margin: 0.5em 0;
+}
+
+section {
+    margin-top: 20px;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+#activites {
+    background-color: #f4f4f4;
+}
+
+.activites-colonnes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.activite {
+    flex: 1;
+    min-width: 200px;
+}
+
+.activite ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.activite li {
+    background-color: #ddd;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+
+#sejour-famille, #club-enfant, #activites-exterieures {
+    background-color: #fff;
+}
+
+.activite-exterieure {
+    margin-bottom: 1em;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    .activites-colonnes {
+        flex-direction: column;
+    }
+}
+
+img {
+    width: 600px;
+    height: auto;
+}
